@@ -16,10 +16,8 @@
     transform: translate(-50%, -60%) rotate(90deg);
     
   }
-  .head{
-    margin-top: 20%;
-    margin-left: 45%;
+  .head:hover{
+    border-radius: 50%;
   }
-  
   
   
