@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel=stylesheet type="text/css" href="main.css">
-    <script>
-             
+    <script>             
         function un_ojo(){
             document.getElementById("face").innerHTML = ".)";
+        }
+        function cambiarCara(){
+                document.getElementById("face").innerHTML=":)";          
+            }
+        function devolverCara(){
+                 document.getElementById("face").innerHTML=":|";          
         }
     </script>
 </head>
 <body>
-    <div class="page">
-        <div class="head" onclick="un_ojo()">
+        <div class="page">            
+            <div class="head" onmouseover="cambiarCara()" onmouseout="devolverCara()" onclick="un_ojo()">
                 <div id="face">:|</div>
             </div>
-        
-    </div>
+        </div>        
 </body>
 </html>
